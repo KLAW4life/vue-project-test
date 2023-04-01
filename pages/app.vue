@@ -13,11 +13,15 @@
             <v-img :src="card.image" aspect-ratio="1"></v-img>
             <v-card-title>{{ card.title }}</v-card-title>
             <v-card-text>{{ card.description }}</v-card-text>
+            <v-btn>
+              Click Me to Like!
+            </v-btn>
           </v-card>
         </v-col>
       </v-row>
 
     </v-container>
+
   </div>
 </template>
 
