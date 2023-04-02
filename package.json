@@ -14,6 +14,9 @@
   "dependencies": {
     "@mdi/font": "^7.2.96",
     "@nuxt/config": "^2.16.3",
+    "@pinia/nuxt": "^0.4.7",
+    "firebase": "^9.19.1",
+    "pinia": "^2.0.33",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2",
     "vuetify": "^3.1.4"
