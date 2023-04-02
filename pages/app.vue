@@ -28,8 +28,21 @@
 </template>
 
 <!-- Format to use composition api using setup in script tag -->
-<script setup> 
-  const cards = ref([
+<script setup>
+  const cards = ref({
+      card_id_01: {
+        title: 'test0',
+        description: '',
+        image: ''
+      },
+      card_id_02: {
+        title: 'Testr 1',
+        description: '',
+        image: ''
+      }
+    }
+    )
+  const cards2 = ref([
     {
       id: 1,
       title: 'Card 1',
