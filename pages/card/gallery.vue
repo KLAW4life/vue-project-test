@@ -17,6 +17,9 @@
         </v-col>
       </v-row>
 
+      <nuxt-link to="/card/uploadCard"><v-btn @click="test">Add Card</v-btn></nuxt-link>
+      <!-- <v-btn @click="test">Add Card</v-btn> -->
+
     </v-container>
   </div>
 </template>
@@ -55,13 +58,12 @@ const cards = ref([])
 
 // ])
 
+//onMounted is a function that runs when the app starts up
 onMounted(()=> {
   gallery.getCardDetails()
 })
 console.log(gallery.cards)
-
   
-       
 </script>
 
 <style>
